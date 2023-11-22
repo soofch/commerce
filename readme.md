@@ -1,3 +1,3 @@
-# comercio
+# Comercio
 
-## pagina creada con HTML, CSS, y Bootstrap 
+## Pagina creada con HTML, CSS, y Bootstrap 

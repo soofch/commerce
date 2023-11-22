@@ -1,0 +1,85 @@
+
+* {
+    padding: 0px;
+    margin: 0px; /*normalizar margenes*/
+    box-sizing: border-box; /*propiedad q sirve para que las medidas lleguen hasta el borde*/
+}
+
+
+a {
+    background-color: pink;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 131, 131);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 190px;
+    border: 5px solid pink
+}
+
+.page-home {
+    background-color: rgb(255, 118, 140);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 95, 95);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 190px;
+    border: 5px solid rgb(255, 142, 161)
+}
+
+a:hover {
+    background-color: rgb(252, 131, 131);
+    color: black;
+    font-weight: 1200;
+    font-weight: bolder;
+    border: 10px solid pink
+}
+
+.page-home:hover {
+    background-color: rgb(255, 95, 95);
+    color: black;
+    font-weight: 1200;
+    font-weight: bolder;
+    border: 10px solid rgb(255, 142, 161)
+}
+
+img {
+    object-fit: cover;
+    width: 100%
+    
+
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.flex {
+    display: flex;
+}
+
+
+.p-section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.p-section {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer:hover {
+    background-color: rgb(252, 131, 131);
+    font-weight: bolder;
+}
+.ancho {
+    text-align: center;
+}
